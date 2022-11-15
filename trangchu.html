@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Trang chủ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container-fluid pb-2" id="navContainer">
+          <a href="trangchu.html" class="navbar-brand">
+            <img src="./images/logo.png" alt="" height="33px">
+          </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="khoahoc.html">Các khóa học</a>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Danh mục</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">IT & Phần mềm</a></li>
+                  <li><a class="dropdown-item" href="#">Kinh doanh</a></li>
+                  <li><a class="dropdown-item" href="#">Thiết kế</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form action="" class="d-flex">
+                <div class="input-group me-4">
+                    <span class="input-group-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Tìm kiếm">
+                </div>
+                <button class="btn me-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                    </svg>
+                </button>
+                <button class="btn btn-outline-dark me-2" id="signin">ĐăngKý</button>
+                <button class="btn btn-dark" id="login">ĐăngNhập</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
+  </header>
+  <main>
+    <!-- Banner -->
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="./images/Banner7.jpg" class="w-100 d-block" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Banner8.jpg" class="w-100 d-block" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Banner9.jpg" class="w-100 d-block" alt="Third slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Courses -->
+    <div class="container-fluid courses">
+      <div class="container courses-slogan mt-3">
+        <h2>Nhiều sự lựa chọn cho khóa học</h2>
+        <p>Hơn 204.000 khóa học trực tuyến với các phần bổ sung mơi được xuất bảng hàng tháng</p>
+      </div>
+      <div class="container courses-items">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-lg-2 col-md-4">
+            <div class="container course-item">
+              <a href="#" class="text-decoration-none text-dark">
+                <img src="./images/courses/1.jpg" class="img-fluid rounded mb-1" alt="python">
+                <div class="container course-detail p-0">
+                <h6 class="course-detail-title font-weight-bold">Khoá học lập trình Python cho người mới bắt đầu</h6>
+                <p class="course-detail-author text-secondary mb-0">
+                  Avinash Jain, The Codex
+                </p>
+                <p class="course-price"><strong>999.000 ₫</strong></p>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">Column</div>
+          <div class="col-lg-2 col-md-4">Column</div>
+          <div class="col-lg-2 col-md-4">Column</div>
+          <div class="col-lg-2 col-md-4">Column</div>
+          <div class="col-lg-2 col-md-4">Column</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <div class="container-fluid bg-dark text-white p-5">
+      <div class="row justify-content-center align-items-center g-1 w-50">
+        <div class="col-12 col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="#" class="link-light text-decoration-none">Dạy trên Lux-E</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Tải ứng dụng</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Về chúng tôi</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Liên hệ chúng tôi</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="#" class="link-light text-decoration-none">Nghề nghiệp</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Giúp đỡ và hỗ trợ</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Chi nhánh</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <ul class="list-unstyled">
+            <li><a href="#" class="link-light text-decoration-none">Điền kiện</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Chính sách bảo mật</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Cài đặt cookie</a></li>
+            <li><a href="#" class="link-light text-decoration-none">Sơ đồ trang web</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/46bb43dd6b.js" crossorigin="anonymous"></script>
+  <!-- My script -->
+  <script src="./js/scrtipt.js"></script>
+</body>
+
+</html>
