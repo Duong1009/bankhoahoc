@@ -1,6 +1,54 @@
+
+:root 
+{
+    --text-blue: #2F1C6A;
+}
+/* TRANG CHU */
 /* NAV */
-#navContainer {
+#navContainer 
+{
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 
+.hottopic 
+{
+    background-color: #f7f9fa;
+}
 
+
+/* CHI TIET KHOA HOC */
+.ctkh-giaovien a 
+{
+    color: #cec0fc;
+}
+
+.ctkh-danhgia i, .ctkh-danhgia span 
+{
+    font-size: 12px;
+    color: #f3c98b;
+}
+.ctkh-danhgia span 
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.ctkh-noidung ul
+{
+    list-style-position: outside;
+}
+
+.ctkh-dathang img
+{
+    width: 318px;
+}
+.ctkh-dathang .ctkh-dathang-container {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+.ctkh-dathang button
+{
+    border-radius: 0;
+}
+.ctkh-dathang .btn-addcart
+{
+    
+}
