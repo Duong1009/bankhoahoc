@@ -55,27 +55,25 @@
                     </span>
                     <input type="text" class="form-control" placeholder="Tìm kiếm">
                 </div>
-                <button class="btn me-2">
+                <button class="btn me-2 button-cart">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
                         <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
                     </svg>
                 </button>
-                <button class="btn btn-outline-dark me-2">ĐăngKý</button>
-                <button class="btn btn-dark">ĐăngNhập</button>
+                <button class="btn btn-outline-dark me-2" id="signin">Đăng&nbspNhập</button>
+                <button class="btn btn-dark" id="login">Đăng&nbspNhập</button>
             </form>
           </div>
         </div>
     </nav>
+    
   </header>
   <main>
     <div class="container-fluid bg-dark text-light ps-5">
       <div class="container ctkh-main-header w-50 me-auto ms-5 ps-5 py-5">
-        <h3 class="ctkh-heading">
-          Khóa học lập trình python cho người mới bắt đầu
-        </h3>
-        <h6 class="ctkh-sub-heading mt-3">
-          Nắm vững các nguyên tắc cơ bản của Python trong khi làm việc trên các trường hợp sử dụng khác nhau theo các bước đơn giản
-        </h6>
+        <!-- Thong tin se duoc them bang JS -->
+        <h3 class="ctkh-heading"></h3>
+        <h6 class="ctkh-sub-heading mt-3"></h6>
         <span class="ctkh-danhgia d-block mt-3">
           <span>4,4</span>
           <i class="fa-solid fa-star"></i>
@@ -86,7 +84,7 @@
           30905 lượt đánh giá từ 230905 học viên
         </span>
         <p class="ctkh-giaovien mt-2">
-          Giảng dạy bởi: <a href="#">Avinash Jain, The Codex</a>
+          Giảng dạy bởi: <a href="#" class="ctkh-giaovien-ten"></a>
         </p>
       </div>
     </div>
@@ -161,9 +159,9 @@
           </div>
           <div class="ctkh-dathang col-lg-4 my-5">
             <div class="ctkh-dathang-container container ms-5 w-75 p-0">
-              <img src="./images/courses/1.jpg" class="img-fluid" alt="">
+              <img src="" class="img-fluid ctkh-dathang-hinhanh" alt="">
               <div class="ctkh-dathang-chitiet container-fluid">
-                <h2 class="my-3">
+                <h2 class="my-3 ctkh-dathang-giaban">
                   499.000đ
                 </h2>
                 <div class="d-grid gap-2 mb-4">
@@ -198,7 +196,7 @@
     </div>
   </main>
   <!-- FOOTER -->
-  <!-- <footer>
+  <footer>
     <div class="container-fluid bg-dark text-white p-5">
       <div class="row justify-content-center align-items-center g-1 w-50">
         <div class="col-12 col-md-4">
@@ -227,7 +225,7 @@
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
