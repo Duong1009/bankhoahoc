@@ -64,7 +64,7 @@ btnCart.addEventListener('click', e => {
 
 
 //* Trang chủ
-if (window.location.pathname == '/trangchu.html')
+if (window.location.pathname == '/trangchu.html' || window.location.pathname == '/khoahoc.html')
 {
     var listCourses = document.querySelectorAll('.trangchu-khoahoc');
     // Hiển thị các khóa học trên trang chủ
@@ -195,4 +195,3 @@ if (window.location.pathname == '/giohang.html')
         Xoadonhang();
     }
 }
-
